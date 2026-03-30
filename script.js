@@ -8,30 +8,23 @@ const cards = [
   { name: "漢娜", stats: "165 / 49 / G", badge: "精選", desc: "外型成熟有魅力，風格突出。", img: "images/7.jpg" },
   { name: "潔心", stats: "160 / 46 / E", badge: "清新", desc: "真材實料大奶奶、會按摩、配合度極高。", img: "images/8.jpg" },
   { name: "維恩", stats: "168 / 53 / D", badge: "人氣", desc: "高挑有型，印象深刻。", img: "images/9.jpg" },
-  { name: "楊寧", stats: "163 / 47 / E", badge: "新人", desc: "冷豔迷人回頭款、飢渴熱情性感尤物
-(<)預約送三光陪洗(>) (don't touch)視訊(don't touch)視訊。", img: "images/10.jpg" },
+  { name: "楊寧", stats: "163 / 47 / E", badge: "新人", desc: "冷豔迷人回頭款、飢渴熱情性感尤物。", img: "images/10.jpg" },
   { name: "韓韓", stats: "166 / 45 / C", badge: "清新", desc: "乾淨俐落，氣質清爽。", img: "images/11.jpg" },
   { name: "霏菲", stats: "163 / 65 / H", badge: "精選", desc: "形象突出，辨識度高。", img: "images/12.jpg" },
   { name: "跳跳", stats: "157 / 43 / C", badge: "人氣", desc: "活潑自然，風格俏皮。", img: "images/13.jpg" },
-  { name: "恩恩", stats: "162 / 43 / C", badge: "清新", desc: "(one)(eight)歲  皮膚白皙 顏值漂亮 
-清純甜美高顏值系列大學生 。", img: "images/14.jpg" },
+  { name: "恩恩", stats: "162 / 43 / C", badge: "清新", desc: "18歲皮膚白皙、顏值漂亮清純甜美高顏值系列大學生 。", img: "images/14.jpg" },
   { name: "笨笨", stats: "158 / 49 / B", badge: "新人", desc: "親切可愛，互動感自然。", img: "images/15.jpg" },
   { name: "娜娜子", stats: "163 / 45 / B", badge: "人氣", desc: "風格清秀，整體柔和。", img: "images/16.jpg" },
   { name: "茴香", stats: "165 / 49 / D", badge: "精選", desc: "有記憶點，外型出眾。", img: "images/17.jpg" },
-  { name: "許妍", stats: "165 / 48 / D", badge: "人氣", desc: "18歲 素人 (zero) 經驗 
-清純款小艷麗 腿長翹臀 真奶無刺青 。", img: "images/18.jpg" },
+  { name: "許妍", stats: "165 / 48 / D", badge: "人氣", desc: "18歲素人(zero)經驗清純款小艷麗，腿長翹臀、真奶無刺青。", img: "images/18.jpg" },
   { name: "蛋白", stats: "168 / 48 / D", badge: "清新", desc: "外型俐落，氣質乾淨。", img: "images/19.jpg" },
   { name: "陽光", stats: "163 / 49 / C", badge: "新人", desc: "自然大方，給人舒服印象。", img: "images/20.jpg" },
   { name: "梵妮", stats: "160 / 47 / C", badge: "精選", desc: "五官耐看，風格穩定。", img: "images/21.jpg" },
   { name: "喬恩", stats: "158 / 46 / F", badge: "清新", desc: "可愛亮眼，整體討喜。", img: "images/22.jpg" },
-  { name: "啾啾", stats: "170 / 48 / C", badge: "人氣", desc: "18歲素 (zero)經驗
-俏麗長腿妹妹無刺青、請相互尊重好好對待。", img: "images/23.jpg" },
-  { name: "沐妍", stats: "166 / 45 / C", badge: "精選", desc: "18歲 素人 (zero) 經驗
-清純氣質高挑骨感小正妹 
-🈲️粗魯客🈲️粗魯客。", img: "images/24.jpg" },
+  { name: "啾啾", stats: "170 / 48 / C", badge: "人氣", desc: "18歲素 (zero)經驗俏麗長腿妹妹無刺青、請相互尊重好好對待。", img: "images/23.jpg" },
+  { name: "沐妍", stats: "166 / 45 / C", badge: "精選", desc: "18歲素人(zero)經驗清純氣質高挑骨感小正妹🈲️粗魯客🈲️粗魯客。", img: "images/24.jpg" },
   { name: "衫菜", stats: "156 / 40 / C", badge: "清新", desc: "小巧可愛，風格輕盈。", img: "images/25.jpg" },
-  { name: "芊芊", stats: "165 / 45 / E", badge: "人氣", desc: "深邃五官 迷人大眼、旋轉跳躍隨你玩
- (<) 預約送無魔🎵(>)。", img: "images/26.jpg" },
+  { name: "芊芊", stats: "165 / 45 / E", badge: "人氣", desc: "深邃五官迷人大眼、旋轉跳躍隨你玩。", img: "images/26.jpg" },
   { name: "林襄", stats: "163 / 50 / F", badge: "精選", desc: "亮眼吸睛，整體辨識度高。", img: "images/27.jpg" },
   { name: "星野", stats: "155 / 45 / C", badge: "人氣", desc: "甜美自然，親和感佳。", img: "images/28.jpg" },
   { name: "咪咪", stats: "152 / 40 / B", badge: "清新", desc: "小隻馬風格，氣質柔和。", img: "images/29.jpg" },
@@ -39,15 +32,13 @@ const cards = [
   { name: "珍妮", stats: "163 / 45 / C", badge: "人氣", desc: "清秀耐看，整體自然。", img: "images/31.jpg" },
   { name: "妙妙", stats: "158 / 45 / C", badge: "新人", desc: "風格俏皮，互動自然。", img: "images/32.jpg" },
   { name: "小新", stats: "164 / 46 / C", badge: "清新", desc: "身材高挑艷麗熱情 名模等級的美腿。", img: "images/33.jpg" },
-  { name: "小野", stats: "163 / 45 / F", badge: "精選", desc: "臉蛋可愛 F奶的誘惑  俏麗小寶貝
-(<)預約三光陪洗無魔🎵+品鮑(>)。", img: "images/34.jpg" },
+  { name: "小野", stats: "163 / 45 / F", badge: "精選", desc: "臉蛋可愛F奶的誘惑、俏麗小寶貝。", img: "images/34.jpg" },
   { name: "EE", stats: "167 / 46 / D", badge: "人氣", desc: "高挑有型，風格鮮明。", img: "images/35.jpg" },
   { name: "Candy", stats: "163 / 45 / E", badge: "清新", desc: "甜美亮眼，形象討喜。", img: "images/36.jpg" },
   { name: "KK", stats: "160 / 48 / C", badge: "精選", desc: "外型勻稱，風格穩定。", img: "images/37.jpg" },
   { name: "小桃", stats: "140 / 40 / B", badge: "人氣", desc: "小巧可愛，辨識度高。", img: "images/38.jpg" },
   { name: "SM", stats: "163 / 48 / D", badge: "清新", desc: "氣質成熟，整體自然。", img: "images/39.jpg" },
-  { name: "匠匠", stats: "163 / 48 / D", badge: "新人", desc: " 性感火辣 尺度爆表 
-(<) 預約送三光陪洗無膜爆米花(>)。", img: "images/40.jpg" },
+  { name: "匠匠", stats: "163 / 48 / D", badge: "新人", desc: " 性感火辣 尺度爆表。", img: "images/40.jpg" },
   { name: "泰拉", stats: "160 / 48 / E", badge: "精選", desc: "整體條件佳，印象深刻。", img: "images/41.jpg" },
   { name: "OK", stats: "158 / 48 / C", badge: "人氣", desc: "外型自然，互動感佳。", img: "images/42.jpg" }
 ];
