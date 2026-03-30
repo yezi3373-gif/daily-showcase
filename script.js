@@ -114,7 +114,6 @@ function renderCards() {
         <div class="name">${card.name}</div>
         <div class="stats">${card.stats}</div>
         <div class="desc">${card.desc || ""}</div>
-        <div class="time">${card.time ? "時段：" + card.time : ""}</div>
       </div>
     ;
 
